@@ -34,7 +34,7 @@
             $select     = $buicSelect.find('select');
             options     = $select.data('select2').options.options;
 
-            $select.select2({
+            $select.select2sortable({
                 language                : {
                     errorLoading : function () {
                         return 'Searching...';
